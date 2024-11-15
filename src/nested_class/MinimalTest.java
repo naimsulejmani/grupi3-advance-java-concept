@@ -9,6 +9,8 @@ public class MinimalTest {
             }
         };
 
+        Minimal<Double> doubleMinimal = Math::min;
+
         System.out.println(integerMinimal.min(100, 200));
         System.out.println(integerMinimal.min(200, 100));
 

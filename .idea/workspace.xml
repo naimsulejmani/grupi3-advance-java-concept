@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grupi3-advance-java-concept.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/BlackFridayOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/Minimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/MinimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/OuterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/PlayerComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/PlayerTest.java" afterDir="false" />
+    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class">
+      <change afterPath="$PROJECT_DIR$/src/nested_class/LambdaExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested_class/MinimalTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested_class/NewtonForcable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested_class/NewtonForcableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nested_class/MinimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nested_class/MinimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;naimsulejmani&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/naimsulejmani/grupi3-advance-java-concept.git&quot;,
+    &quot;accountId&quot;: &quot;2ff9ad4d-b7f3-4cf2-ad37-3a65e9cbbc5e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oiPSHKLoRAgLUNqhU5r9TgLYQt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,11 +51,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LambdaExamples.executor": "Run",
     "Application.MinimalTest.executor": "Run",
+    "Application.MinimalTest1.executor": "Run",
+    "Application.NewtonForcableTest.executor": "Run",
     "Application.OrderTest.executor": "Run",
     "Application.OuterTest.executor": "Run",
     "Application.PlayerTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
@@ -68,7 +73,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PlayerTest">
+  <component name="RunManager" selected="Application.LambdaExamples">
+    <configuration name="LambdaExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested_class.LambdaExamples" />
+      <module name="grupi3-advance-java-concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nested_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested_class.MinimalTest" />
       <module name="grupi3-advance-java-concept" />
@@ -82,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.OrderTest" />
+    <configuration name="MinimalTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested_class.MinimalTest1" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.OuterTest" />
+    <configuration name="NewtonForcableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested_class.NewtonForcableTest" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
@@ -123,18 +141,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExamples" />
+        <item itemvalue="Application.MinimalTest1" />
+        <item itemvalue="Application.NewtonForcableTest" />
         <item itemvalue="Application.PlayerTest" />
         <item itemvalue="Application.MinimalTest" />
-        <item itemvalue="Application.OrderTest" />
-        <item itemvalue="Application.OuterTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -147,10 +166,28 @@
       <option name="presentableId" value="Default" />
       <updated>1731349420663</updated>
       <workItem from="1731349421747" duration="5156000" />
+      <workItem from="1731357921364" duration="126000" />
+      <workItem from="1731358819958" duration="6000" />
+      <workItem from="1731359299539" duration="6000" />
+      <workItem from="1731403031872" duration="75000" />
+      <workItem from="1731695304212" duration="4066000" />
     </task>
+    <task id="LOCAL-00001" summary="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class">
+      <option name="closed" value="true" />
+      <created>1731357955367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731357955367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class" />
   </component>
 </project>
