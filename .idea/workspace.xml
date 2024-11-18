@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class">
-      <change afterPath="$PROJECT_DIR$/src/nested_class/LambdaExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/MinimalTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/NewtonForcable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_class/NewtonForcableTest.java" afterDir="false" />
+    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface">
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/ProductStreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/base_functions/PredicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nested_class/MinimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nested_class/MinimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,9 @@
     "Application.OrderTest.executor": "Run",
     "Application.OuterTest.executor": "Run",
     "Application.PlayerTest.executor": "Run",
+    "Application.PredicateTest.executor": "Run",
+    "Application.ProductStreamTest1.executor": "Run",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
@@ -73,22 +76,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LambdaExamples">
+  <component name="RunManager" selected="Application.PredicateTest">
     <configuration name="LambdaExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested_class.LambdaExamples" />
-      <module name="grupi3-advance-java-concept" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nested_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.MinimalTest" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewtonForcableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.NewtonForcableTest" />
+    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_stream_api.base_functions.PredicateTest" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested_class.*" />
+          <option name="PATTERN" value="java_stream_api.base_functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.PlayerTest" />
+    <configuration name="ProductStreamTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_stream_api.ProductStreamTest1" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested_class.*" />
+          <option name="PATTERN" value="java_stream_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_stream_api.Test" />
+      <module name="grupi3-advance-java-concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_stream_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ProductStreamTest1" />
         <item itemvalue="Application.LambdaExamples" />
         <item itemvalue="Application.MinimalTest1" />
-        <item itemvalue="Application.NewtonForcableTest" />
-        <item itemvalue="Application.PlayerTest" />
-        <item itemvalue="Application.MinimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,10 @@
       <workItem from="1731358819958" duration="6000" />
       <workItem from="1731359299539" duration="6000" />
       <workItem from="1731403031872" duration="75000" />
-      <workItem from="1731695304212" duration="4066000" />
+      <workItem from="1731695304212" duration="4094000" />
+      <workItem from="1731745285326" duration="130000" />
+      <workItem from="1731952507190" duration="10000" />
+      <workItem from="1731955059408" duration="3832000" />
     </task>
     <task id="LOCAL-00001" summary="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class">
       <option name="closed" value="true" />
@@ -180,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731357955367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface">
+      <option name="closed" value="true" />
+      <created>1731699387860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731699387860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class" />
+    <MESSAGE value="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface" />
   </component>
 </project>
