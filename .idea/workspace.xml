@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface">
-      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_stream_api/ProductStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_stream_api/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_stream_api/base_functions/PredicateTest.java" afterDir="false" />
+    <list default="true" id="e05f3f64-66dc-44e9-817c-6a5fa9be05fb" name="Changes" comment="Java Stream API - started">
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/BiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_stream_api/ToIntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_stream_api/ProductStreamTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_stream_api/ProductStreamTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BiTest.executor": "Run",
     "Application.LambdaExamples.executor": "Run",
     "Application.MinimalTest.executor": "Run",
     "Application.MinimalTest1.executor": "Run",
@@ -61,6 +60,7 @@
     "Application.PredicateTest.executor": "Run",
     "Application.ProductStreamTest1.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ToIntTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
@@ -76,26 +76,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PredicateTest">
-    <configuration name="LambdaExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.LambdaExamples" />
+  <component name="RunManager" selected="Application.ProductStreamTest1">
+    <configuration name="BiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_stream_api.BiTest" />
       <module name="grupi3-advance-java-concept" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimalTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested_class.MinimalTest1" />
-      <module name="grupi3-advance-java-concept" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nested_class.*" />
+          <option name="PATTERN" value="java_stream_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ToIntTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_stream_api.ToIntTest" />
+      <module name="grupi3-advance-java-concept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_stream_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductStreamTest1" />
+        <item itemvalue="Application.BiTest" />
+        <item itemvalue="Application.ToIntTest" />
         <item itemvalue="Application.PredicateTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ProductStreamTest1" />
-        <item itemvalue="Application.LambdaExamples" />
-        <item itemvalue="Application.MinimalTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,9 @@
       <workItem from="1731745285326" duration="130000" />
       <workItem from="1731952507190" duration="10000" />
       <workItem from="1731955059408" duration="3832000" />
+      <workItem from="1731966525193" duration="28000" />
+      <workItem from="1732005569267" duration="5000" />
+      <workItem from="1732301287809" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class">
       <option name="closed" value="true" />
@@ -194,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731699387860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java Stream API - started">
+      <option name="closed" value="true" />
+      <created>1731966540119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731966540119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Advance Concepts such as Nested Class - Static and Inner Member, Local Class &amp; Anonymous Class" />
     <MESSAGE value="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous Inner Class &amp; Lambda Expression, Comperator Interface and Predicate Interface" />
+    <MESSAGE value="Java Stream API - started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Stream API - started" />
   </component>
 </project>
